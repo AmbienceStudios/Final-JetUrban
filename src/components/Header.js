@@ -59,6 +59,10 @@ The vision is to bring awareness and donate to kids in foster care, group homes 
 Urban was added in because I wanted to be a voice for the low income urban areas. 
 A lot of us are victims to a centralized system that was meant to oppress & control. 
 
+<br/><br/>
+
+<h2>NO MORE!!!!</h2>
+
 
 
 
