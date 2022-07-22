@@ -18,10 +18,10 @@ const RoadMap = () => {
           <ul className="cards-road">
 
 
-                <li className="card">
+                <li className="card-road">
                   <div>
                   <h2>PHASE 1</h2>
-                    <div className="card-content">
+                    <div className="card-road-content">
                     <p>Launch Urban Warriors Discord. <br/>  <br/>
               Launch Urban Warriors GOLDEN BOY COLLECTION. </p>
                     </div>
@@ -31,7 +31,7 @@ const RoadMap = () => {
     
 
     
-                <li className="card">
+                <li className="card-road">
                   <div>
                   <h2 >Pre-PHASE 2 <br/> MILESTONE REQUIREMENTS </h2>
                     <div >
@@ -45,7 +45,7 @@ const RoadMap = () => {
                 </li>
 
 
-                <li className="card">
+                <li className="card-road">
                   <div>
                   <h2 >Phase 2</h2>
                     <div>
@@ -77,7 +77,7 @@ const RoadMap = () => {
 
           
     
-                <li className="card">
+                <li className="card-road">
                   <div>
                   <h2>Phase 3</h2>
                     <div>
@@ -91,10 +91,10 @@ const RoadMap = () => {
    
 
      
-                <li className="card">
+                <li className="card-road">
                   <div>
                   <h2 className="notice5">Phase 4</h2>
-                    <div className="card-content">
+                    <div className="card-road-content">
                   
                     <p className='p-header'>Launch <br/> <p className='p-header2'>Urban Warriors Native Token </p> </p><br/>  <br/>
                     <p className='p-header'> Launch <br/> <p className='p-header2'>Rewards Smart contract</p> </p> <br/> <br/>
@@ -110,7 +110,7 @@ const RoadMap = () => {
 
 
 
-                <li className="card">
+                <li className="card-road">
                   <div>
                   <h2 >Phase 5</h2>
                     <div >
@@ -125,10 +125,10 @@ const RoadMap = () => {
          
 
          
-             <li className="card">
+             <li className="card-road">
                   <div>
                   <h2 className="notice5">Phase 6</h2>
-                    <div className="card-content">
+                    <div className="card-road-content">
                       <p className='p-header'>Launch </p> <p> into P2E GAMING  METAVERSE  🚀 </p>
                     </div>
                   </div>

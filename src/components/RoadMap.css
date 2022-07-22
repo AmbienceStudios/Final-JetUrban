@@ -1,0 +1,75 @@
+.container-road {
+    max-width: 1100px;
+    padding: 0 15px;
+    margin: 0;
+    padding-bottom: 4rem;
+}
+    
+
+.col-container {
+    padding: 48px;
+
+    
+  }
+  
+.card-road {
+  
+    padding: 20px;
+    margin-top: 2rem;
+    border-radius: 12px;
+    background-color: #111;
+    border: solid;
+    border-width: 2.01px;
+    border-color: rgb(246, 169, 61);
+    text-align: center;
+  
+  
+  }
+
+  .card-road {
+  
+    padding: 20px;
+    margin-top: 2rem;
+    border-radius: 12px;
+    background-color: #111;
+    border: solid;
+    border-width: 2.01px;
+    border-color: rgb(246, 169, 61);
+    text-align: center;
+  
+  
+  }
+  
+
+
+
+  
+  @media (max-width: 480px) {
+    .cards {
+      display: flex;
+      gap: 2rem;
+    
+    }
+  
+ 
+  
+ 
+    
+  }
+  
+
+  .p-road {
+    
+      color: var(--accent-color3);
+      font-size: 1rem;
+      text-align: center;
+      font-weight: 700;
+      text-transform: uppercase;
+      padding-bottom: 4rem;
+    
+  }
+  
+  
+  
+  
+  

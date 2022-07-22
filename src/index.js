@@ -47,7 +47,7 @@ root.render(
     <Artwork/>
     </section>
 
-    <section className='section'>
+    <section className='section-all'>
     <Allocations/>
     </section>
 

@@ -1,0 +1,55 @@
+.container-all {
+
+    padding: 0 15px;
+    margin: 0;
+    padding-bottom: 4rem;
+    position: relative;
+
+  }
+  
+
+  .solid {
+    border-top: 1px solid rgb(255, 0, 0);
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+
+  .card-all {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background: var(--white);
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 15%);
+    scroll-snap-align: start;
+    transition: all 0.2s;
+    background-color: #111;
+    border: solid;
+    border-width: 2.01px;
+    border-color: rgb(246, 169, 61);
+  
+  
+  }
+
+
+  
+  
+  @media (max-width: 480px) {
+    .cards {
+      display: flex;
+      gap: 2rem;
+    
+    }
+
+  
+
+
+  
+  }
+  
+  
+  
+  
+  
+  
