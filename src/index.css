@@ -238,8 +238,8 @@ overflow-x: scroll;
 }
 
 .section {
-width: screen;
-/* height: 100vh; */
+width: 100%;
+height: max-content;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -250,7 +250,7 @@ padding-right: 5px;
 }
 
 .section-nav {
-  padding-top: 150px;
+padding-top: 150px;
 width: screen;
 height: max-content;
 /* display: flex;

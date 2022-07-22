@@ -8,7 +8,7 @@ const CollectionStory = () => {
     <div id="p-about"className="like">
     
  
-      <div className="container-about">
+      <div className="container-col">
 
     
         <div className="content">
