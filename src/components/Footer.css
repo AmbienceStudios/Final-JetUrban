@@ -1,0 +1,56 @@
+.brand-footer {
+    transform: scale(.3);
+    position: relative;
+    top: 10rem;
+}
+
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.socials li{
+    margin: 150px;
+}
+
+
+
+
+
+@media (max-width:500px) {
+.footer-menu ul{
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: #fff;
+    transform: scale(.8);
+    padding: 4px;
+
+    border-radius: 50%;
+
+}
+
+
+}
+
+
+
+
