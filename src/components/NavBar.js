@@ -18,10 +18,9 @@ const NavBar = () => {
         <li><a href="#p-utilities" className="nav-link">UTILITIES</a></li>
         <li><a href="#p-allocations" className="nav-link">ALLOCATIONS</a></li>
         <li><a href="#p-roadmap" className="nav-link">ROAD MAP</a></li>
-       
         <li className="discord"><a href="https://discord.gg/nnq359KR" target="_blank" >DISCORD</a></li>
-
         <button className="btn-wallet">Connect Wallet</button>
+   
 
       </div>
     </ul>
