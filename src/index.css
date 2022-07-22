@@ -231,7 +231,7 @@ overflow-x: scroll;
 
 
 
-@media (max-width:500px) {
+@media (max-width:1500px) {
 
 * {
   overflow-x: hidden;
@@ -239,7 +239,7 @@ overflow-x: scroll;
 
 .section {
 width: screen;
-height: 100vh;
+/* height: 100vh; */
 display: flex;
 justify-content: center;
 align-items: center;
@@ -250,69 +250,70 @@ padding-right: 5px;
 }
 
 .section-nav {
+  padding-top: 150px;
 width: screen;
-height: 20vh;
+height: max-content;
 /* display: flex;
 justify-content: center;
 align-items: center; */
-overflow-y: hidden;
+/* overflow-y: hidden; */
 }
 
 
 .section-ut {
+  padding-top: 300px;
   width: 100%;
-  height: 520vh;
+  height: max-content;
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow-y: hidden;
-  padding-left: 5px;
+
+padding-left: 5px;
 padding-right: 5px;
   }
 
   .section-col {
-    padding-left: 0rem;
-    padding-right: 0rem;
+    padding-left: 15px;
+    padding-right: 15px;
     width: 100%;
-    height: 320vh;
+    height: max-content;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    overflow-y: hidden;
-    padding-left: 20px;
-padding-right: 5px;
+    /* overflow-y: hidden; */
+
     }
 
 .section-roadmap {
 width: 100%;
-height: 500vh;
+height: max-content;
 display: flex;
 justify-content: center;
 align-items: center;
-overflow-y: hidden;
+/* overflow-y: hidden; */
 padding-left: 20px;
 padding-right: 20px;
 }
 
 .section-all {
 width: 100%;
-height: 200vh;
+height: max-content;
 display: flex;
 justify-content: center;
 align-items: center;
-overflow-y: hidden;
+/* overflow-y: hidden; */
 padding-left: 5px;
 padding-right: 5px;
 }
 
 .section-footer {
 width: 100%;
-height: 10vh;
+height: max-content;
 display: flex;
 justify-content: center;
 align-items: center;
-overflow-y: hidden;
+/* overflow-y: hidden; */
 padding-left: 5px;
 padding-right: 5px;
 }
@@ -320,13 +321,13 @@ padding-right: 5px;
 
 .section-artwork {
 width: 100%;
-height: 40vh;
+height: max-content;
 position: relative;
-bottom: 25rem;
+bottom: 1.5rem;
 display: flex;
 justify-content: center;
 align-items: center;
-overflow-y: hidden;
+/* overflow-y: hidden; */
 }
 
 
