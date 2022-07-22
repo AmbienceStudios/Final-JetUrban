@@ -123,6 +123,7 @@ const Artwork = () => {
 
     </div>
 
+
 </div>
   )
 }

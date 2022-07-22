@@ -22,7 +22,7 @@
     grid-auto-flow: column;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    padding: 0px 0px;
+    padding: 2rem 0px;
     overflow-x: scroll;
     grid-auto-columns: calc(25% - 30px);
     grid-column-gap: 40px;
@@ -34,7 +34,7 @@
 
   
   .card {
-  
+ 
     display: flex;
     flex-direction: column;
     padding: 20px;

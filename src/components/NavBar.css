@@ -7,23 +7,25 @@
     padding-bottom: 1rem;
     background-color: #111;
     color: #fff;
-    position: relative;
-    bottom: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
     
     
    }
 
-   .logo {
-    transform: scale(.2);
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   #logo {
     
+    transform: scale(.3);
+    
+     
     
    }
   
   .btn-wallet {
+    width: 250px;
+   
     color: white;
     /* position: absolute;
     bottom: 25rem; */
@@ -37,6 +39,7 @@
     border-width: 2.01px;
     border-color: rgb(246, 169, 61);
     font-size: 1rem;
+    
   }
   
   .btn-wallet:hover {
@@ -52,19 +55,21 @@
    .nav-links a {
     color: #fff;
     text-decoration: none;
+    
+
       
    }
    /* LOGO */
 
    /* NAVBAR MENU */
    .menu {
+    display: flex;
     gap: 1em;
     font-size: 18px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    bottom: 10rem;
+    padding-top: 2rem;
+ 
+
+
   
    }
    .menu li:hover {
@@ -76,6 +81,7 @@
    }
    .menu li {
     padding: 5px 14px;
+  
     
   
    }
@@ -84,33 +90,9 @@
     background-color: #111;
   }
   
-  
-   /* DROPDOWN MENU */
-   .services {
-    position: relative; 
-   }
-   .dropdown {
-    background-color: rgb(255, 0, 0);
-    padding: 1em 0;
-    position: absolute; /*WITH RESPECT TO PARENT*/
-    display: none;
-    border-radius: 8px;
-    top: 35px;
-   }
-   .dropdown li + li {
-    margin-top: 10px;
-   }
-   .dropdown li {
-    padding: 0.5em 1em;
-    width: 8em;
-    text-align: center;
-   }
-   .dropdown li:hover {
-    background-color: #ff0000;
-   }
-   .services:hover .dropdown {
-    display: block;
-   }
+
+
+   
   
    
   @media screen and (max-width: 430px) {
@@ -118,6 +100,7 @@
    /* NAVBAR STYLING STARTS */
   .navbar {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
   
@@ -128,12 +111,7 @@
    .nav-links a {
     color: #fff;
    }
-   /* LOGO */
-   .logo {
-   transform: scale(.3);
-  
    
-  }
   
   .btn-wallet {
     color: white;
@@ -168,8 +146,22 @@
   
   
   
+  .menu {
+    display: none;
+  } 
   
+  #logo{
+   
+    transform: scale(.8);
+    position: relative;
   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+   
+ 
+  }
   
   }
     

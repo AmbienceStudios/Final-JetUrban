@@ -33,6 +33,13 @@
   }
 
 
+  h1 {
+    font-size: 3rem;
+  }
+
+  p {
+    padding-bottom: 1.5rem;
+  }
   
   
   @media (max-width: 480px) {

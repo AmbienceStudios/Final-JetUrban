@@ -4,12 +4,14 @@ import logo from "../assets/logo2.png";
 
 const NavBar = () => {
   return (
+    
     <nav className="navbar">
       
-    <div className="logo">
-      <img src={logo}/>
-    </div>
    
+      <img id="logo" src={logo} alt='logo' />
+    
+      <button className="btn-wallet">Connect Wallet</button>
+
     <ul className="nav-links">
     
       
@@ -18,8 +20,8 @@ const NavBar = () => {
         <li><a href="#p-utilities" className="nav-link">UTILITIES</a></li>
         <li><a href="#p-allocations" className="nav-link">ALLOCATIONS</a></li>
         <li><a href="#p-roadmap" className="nav-link">ROAD MAP</a></li>
-        <li className="discord"><a href="https://discord.gg/nnq359KR" target="_blank" >DISCORD</a></li>
-        <button className="btn-wallet">Connect Wallet</button>
+        <li className="discord"><a href="https://discord.gg/nnq359KR" target="_blank" rel="noreferrer"  >DISCORD</a></li>
+        
    
 
       </div>

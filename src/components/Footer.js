@@ -5,7 +5,7 @@ import instagram from "../assets/i-insta.png"
 import tiktok from "../assets/i-tiktok.png"
 import snapchat from "../assets/i-snap.png"
 import discord from "../assets/i-discord.png"
-import logo from "../assets/logo2.png";
+
 
 const Footer = () => {
   return (
@@ -13,16 +13,14 @@ const Footer = () => {
 <div className="footer-container">
 
 <div className="footer-content">
-        <div className="brand-footer">
-          <img src={logo} alt="logo"/>
-          </div>
+ 
        
           <ul className="socials">
-              <li><a href="https://discord.gg/nnq359KR" target="_blank"><img src={discord}/></a></li>
-              <li><a href="https://twitter.com/urbanwarriornft" target="_blank"><img src={twitter}/></a></li>
-              <li><a href="https://www.instagram.com/urbanwarriorsnft" target="_blank"><img src={instagram}/></a></li>
-              <li><a href="https://www.tiktok.com/@urbanwarriorsnft" target="_blank"><img src={tiktok}/></a></li>
-              <li><a href="https://t.snapchat.com/5Ps2F4We" target="_blank"><img src={snapchat}/></a></li>
+              <li><a href="https://discord.gg/nnq359KR" target="_blank" rel="noreferrer"><img src={discord} alt="disocrd"/></a></li>
+              <li><a href="https://twitter.com/urbanwarriornft" target="_blank" rel="noreferrer"><img src={twitter} alt="twitter"/></a></li>
+              <li><a href="https://www.instagram.com/urbanwarriorsnft" target="_blank" rel="noreferrer"><img src={instagram} alt="instagram"/></a></li>
+              <li><a href="https://www.tiktok.com/@urbanwarriorsnft" target="_blank" rel="noreferrer"><img src={tiktok} alt="tiktok"/></a></li>
+              <li><a href="https://t.snapchat.com/5Ps2F4We" target="_blank" rel="noreferrer"><img src={snapchat} alt="snapchat"/></a></li>
             
             
 

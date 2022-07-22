@@ -6,7 +6,7 @@ import Allocations from './components/Allocations';
 import Artwork from './components/Artwork';
 import CollectionStory from './components/CollectionStory';
 import Footer from './components/Footer';
-import Header from './components/Header';
+// import Header from './components/Header';
 import NavBar from './components/NavBar';
 import RoadMap from './components/RoadMap';
 import Utilities from './components/Utilities'
@@ -31,11 +31,11 @@ root.render(
     <App />
     </section> */}
 
-    <section className='section'>
+    {/* <section className='section'>
     <Header/>
-    </section>
+    </section> */}
 
-    <section className='section'>
+    <section className='section-col'>
     <CollectionStory/>
     </section>
 

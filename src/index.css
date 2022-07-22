@@ -19,6 +19,13 @@ font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
 margin: 0;
 padding: 0;
 box-sizing: border-box;
+width: 100%;
+overflow-x: hidden;
+overflow-y: auto;
+-ms-overflow-style: none;
+scrollbar-width: none;
+
+
 
 
 }
@@ -32,32 +39,56 @@ height: 100vh;
 display: flex;
 justify-content: center;
 align-items: center;
+overflow-y: hidden;
 
 }
 
 .section-nav {
 width: 100%;
-height: 5vh;
-/* display: flex;
+height: 60vh;
+display: flex;
 justify-content: center;
-align-items: center; */
+align-items: center;
+overflow-y: hidden;
+padding-left: 50px;
+padding-right: 50px;
+
 }
+
+
 
 
 .section-ut {
   width: 100%;
-  height: 200vh;
+  height: 210vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow-y: hidden;
+  padding-left: 100px;
+padding-right: 100px;
   }
+
+  .section-col {
+    padding-left: 10rem;
+    padding-right: 10rem;
+    width: 100%;
+    height: 145vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+    }
 
 .section-roadmap {
 width: 100%;
-height: 320vh;
+height: 380vh;
 display: flex;
 justify-content: center;
 align-items: center;
+overflow-y: hidden;
+padding-left: 100px;
+padding-right: 100px;
 }
 
 .section-all {
@@ -66,14 +97,18 @@ height: 120vh;
 display: flex;
 justify-content: center;
 align-items: center;
+overflow-y: hidden;
+padding-left: 100px;
+padding-right: 100px;
 }
 
 .section-footer {
 width: 100%;
-height: 10vh;
+height: 50vh;
 display: flex;
 justify-content: center;
 align-items: center;
+overflow-y: hidden;
 }
 
 
@@ -164,9 +199,7 @@ font-size: 1.8rem;
 font-weight: 900;
 }
 
-ul {
 
-}
 
 li {
 text-decoration: none;
@@ -194,20 +227,273 @@ padding:0px;
 overflow-x: scroll;
 
 
+}
+
+
+
+@media (max-width:500px) {
+
+* {
+  overflow-x: hidden;
+}
+
+.section {
+width: screen;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+overflow-y: hidden;
+padding-left: 5px;
+padding-right: 5px;
 
 }
 
-.card {
-/* padding: 20px;
-margin-top: 2rem;
-border-radius: 12px;
-background-color: #111;
-border: solid;
-border-width: 2.01px;
-border-color: rgb(246, 169, 61);
-text-align: center; */
+.section-nav {
+width: screen;
+height: 20vh;
+/* display: flex;
+justify-content: center;
+align-items: center; */
+overflow-y: hidden;
 }
 
-.card-container {
+
+.section-ut {
+  width: 100%;
+  height: 520vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: hidden;
+  padding-left: 5px;
+padding-right: 5px;
+  }
+
+  .section-col {
+    padding-left: 0rem;
+    padding-right: 0rem;
+    width: 100%;
+    height: 320vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+    padding-left: 20px;
+padding-right: 20px;
+    }
+
+.section-roadmap {
+width: 100%;
+height: 500vh;
+display: flex;
+justify-content: center;
+align-items: center;
+overflow-y: hidden;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+.section-all {
+width: 100%;
+height: 200vh;
+display: flex;
+justify-content: center;
+align-items: center;
+overflow-y: hidden;
+padding-left: 5px;
+padding-right: 5px;
+}
+
+.section-footer {
+width: 100%;
+height: 10vh;
+display: flex;
+justify-content: center;
+align-items: center;
+overflow-y: hidden;
+padding-left: 5px;
+padding-right: 5px;
+}
+
+
+.section-artwork {
+width: 100%;
+height: 40vh;
+position: relative;
+bottom: 25rem;
+display: flex;
+justify-content: center;
+align-items: center;
+overflow-y: hidden;
+}
+
+
+
+/* Global  */
+
+h1, h2, h3,h4, h5, h6 { 
+font-family: sans-serif;
+text-transform: uppercase;
+text-align: center;
+padding-bottom: 1.5rem;
+font-weight: bolder;
+}
+
+h1 {
+color: red;
+font-size: 4rem;
+font-weight: 900;
+
+}
+
+h2 {
+color: rgb(246, 169, 61);
+font-size: 2.5rem;
+font-weight: 700;
+
+}
+
+h3 {
+color: white;
+font-size: 2.2rem;
+}
+
+h4 {
+color: rgb(246, 169, 61);
+font-size: 1.5rem;
+font-weight: 700;
+
+}
+
+
+h5 {
+  color: rgb(246, 169, 61);
+  font-size: 3.5rem;
+  font-weight: 700;
+
+}
+
+h6 {
+  color: red;
+  font-size: 1.2rem;
+  font-weight: 700;
+
+}
+
+
+
+p {
+font-family: sans-serif;
+color: white;
+font-size: 1.5rem;
+font-weight: 600;
+text-transform: uppercase;
+line-height: 1.5;
+text-align: center;
+
+}
+
+
+
+.p-header {
+color: red;
+font-size: 2rem;
+font-weight: 900;
+}
+
+.p-header2 {
+color: rgb(246, 169, 61);
+font-size: 1.8rem;
+font-weight: 900;
+}
+
+
+
+li {
+text-decoration: none;
+list-style: none;
+font-family: sans-serif;
+color: white;
+font-size: 1.5rem;
+font-weight: 600;
+text-transform: uppercase;
+line-height: 1.5;
+text-align: center;
+}
+
+.container {
+padding: 0 0px;
+margin: 0;
+padding-bottom: 4rem;
+}
+
+.cards {
+display: grid;
+grid-column-gap: 10px;
+flex-wrap: wrap;
+padding:0px;
+overflow-x: scroll;
+
+
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+/* base css */
+
+
+.noselect 
+{
+	-webkit-touch-callout: none; 
+	-webkit-user-select: none; 
+	-khtml-user-select: none; 
+	-moz-user-select: none; 
+	-ms-user-select: none; 
+	user-select: none;
+}
+
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+::-webkit-scrollbar {
+  background-color: #111111;
+  width: 0.2rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(red);
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+@media only screen and (min-device-width: 280px) and (max-device-width: 1080px) {
+  .app-container::-webkit-scrollbar {
+    display: none;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    --webkit-overflow-scrolling: touch;
+  }
+
 
 }
