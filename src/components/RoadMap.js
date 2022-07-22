@@ -38,7 +38,7 @@ const RoadMap = () => {
                     <p >  75 GIVEAWAYS. <br/>  <br/> 
               75 WHITELIST SPOTS ARE GONE. <br/> </p>  <br/> 
                     <p>3K FOLLOWERS ON TWITTER.  </p> <br/>
-              <a href="https://twitter.com/urbanwarriornft?ref_src=twsrc%5Etfw" className="twitter-follow-button" data-show-count="true">Follow @urbanwarriornft</a>  
+                    <a href="https://twitter.com/URBANWARRIORNFT?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-dnt="true" data-show-count="true">Follow @URBANWARRIORNFT</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>  
                   </div>
                   </div>
             
