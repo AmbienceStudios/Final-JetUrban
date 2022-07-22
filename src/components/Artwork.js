@@ -1,17 +1,17 @@
 import React from 'react'
 import './Artwork.css'
-import Boxer1 from '../assets/Boxer1.jpg';
-import Boxer2 from "../assets/Boxer2.jpg";
-import Boxer3 from "../assets/Boxer3.jpg";
-import Boxer4 from "../assets/Boxer4.jpg";
-import Boxer5 from "../assets/Boxer5.jpg";
-import Boxer6 from "../assets/Boxer6.jpg";
-import Boxer7 from "../assets/Boxer7.jpg";
-import Boxer8 from "../assets/Boxer8.jpg";
-import Boxer9 from "../assets/Boxer9.jpg";
-import Boxer10 from "../assets/Boxer10.jpg";
-import Boxer11 from "../assets/Boxer11.jpg";
-import Boxer12 from "../assets/Boxer12.jpg";
+import Boxer1 from '../assets/Boxer1.png';
+import Boxer2 from "../assets/Boxer2.png";
+import Boxer3 from "../assets/Boxer3.png";
+import Boxer4 from "../assets/Boxer4.png";
+import Boxer5 from "../assets/Boxer5.png";
+import Boxer6 from "../assets/Boxer6.png";
+import Boxer7 from "../assets/Boxer7.png";
+import Boxer8 from "../assets/Boxer8.png";
+import Boxer9 from "../assets/Boxer9.png";
+import Boxer10 from "../assets/Boxer10.png";
+import Boxer11 from "../assets/Boxer11.png";
+import Boxer12 from "../assets/Boxer12.png";
 
 const Artwork = () => {
   return (
