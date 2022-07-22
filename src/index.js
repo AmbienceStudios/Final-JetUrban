@@ -39,7 +39,7 @@ root.render(
     <CollectionStory/>
     </section>
 
-    <section className='section'>
+    <section className='section-ut'>
     <Utilities/>
     </section>
 
