@@ -1,24 +1,24 @@
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: #111;
-  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+background-color: #111;
+color: white;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
 }
 
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
 
 }
 
@@ -26,107 +26,109 @@ code {
 /* sections  */
 
 .section {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
+width: 100%;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
 }
 
 .section-nav {
-  width: 100%;
-  height: 10vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+width: 100%;
+height: 10vh;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .section-roadmap {
-  width: 100%;
-  height: 300vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+width: 100%;
+height: 300vh;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .section-all {
-  width: 100%;
-  height: 200vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+width: 100%;
+height: 200vh;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .section-footer {
-  width: 100%;
-  height: 40vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+width: 100%;
+height: 40vh;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 
 .section-artwork {
-  width: 100%;
-  height: 40vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+width: 100%;
+height: 10vh;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 
 /* Global  */
 
 h1, h2, h3 { 
-  font-family: sans-serif;
-  text-transform: uppercase;
-  text-align: center;
-  padding-bottom: 1.5rem;
-  font-weight: bolder;
+font-family: sans-serif;
+text-transform: uppercase;
+text-align: center;
+padding-bottom: 1.5rem;
+font-weight: bolder;
 }
 
 h1 {
-  color: red;
-  font-size: 4rem;
-  font-weight: 900;
+color: red;
+font-size: 4rem;
+font-weight: 900;
+
 }
 
 h2 {
-  color: rgb(246, 169, 61);
-  font-size: 2.5rem;
-  font-weight: 700;
+color: rgb(246, 169, 61);
+font-size: 2.5rem;
+font-weight: 700;
+
 }
 
 h3 {
-  color: white;
-  font-size: 2.2rem;
+color: white;
+font-size: 2.2rem;
 }
 
 p {
-  font-family: sans-serif;
-  color: white;
-  font-size: 1.5rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  line-height: 1.5;
-  text-align: center;
-  padding-bottom: 1rem;
-  padding-right: 20rem;
-  padding-left: 20rem
+font-family: sans-serif;
+color: white;
+font-size: 1.5rem;
+font-weight: 600;
+text-transform: uppercase;
+line-height: 1.5;
+text-align: center;
+padding-bottom: 1rem;
+padding-right: 10rem;
+padding-left: 10rem
 
 }
 
 .p-header {
-  color: red;
-  font-size: 2rem;
-  font-weight: 900;
+color: red;
+font-size: 2rem;
+font-weight: 900;
 }
 
 .p-header2 {
-  color: rgb(246, 169, 61);
-  font-size: 1.8rem;
-  font-weight: 900;
+color: rgb(246, 169, 61);
+font-size: 1.8rem;
+font-weight: 900;
 }
 
 ul {
@@ -134,35 +136,35 @@ ul {
 }
 
 li {
-  list-style: none;
+list-style: none;
 }
 
 .container {
-  padding: 0 15px;
-  margin: 0;
-  padding-bottom: 4rem;
+padding: 0 15px;
+margin: 0;
+padding-bottom: 4rem;
 }
 
 .cards {
-  display: grid;
-  grid-column-gap: 10px;
-  flex-wrap: wrap;
-  padding:0px;
-  overflow-x: scroll;
-  
+display: grid;
+grid-column-gap: 10px;
+flex-wrap: wrap;
+padding:0px;
+overflow-x: scroll;
+
 
 
 }
 
 .card {
-  /* padding: 20px;
-  margin-top: 2rem;
-  border-radius: 12px;
-  background-color: #111;
-  border: solid;
-  border-width: 2.01px;
-  border-color: rgb(246, 169, 61);
-  text-align: center; */
+/* padding: 20px;
+margin-top: 2rem;
+border-radius: 12px;
+background-color: #111;
+border: solid;
+border-width: 2.01px;
+border-color: rgb(246, 169, 61);
+text-align: center; */
 }
 
 .card-container {
