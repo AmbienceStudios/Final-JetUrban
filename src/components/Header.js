@@ -5,6 +5,33 @@ const Header = () => {
   return (
    
 <div class="container-about">
+
+<div>
+<h1> Vision</h1>
+<p className='p-long'>
+The vision is to bring awareness and donate to kids in foster care, group homes and non-profits that
+ are geared towards mental health awareness, using Blockchain Technology, Smart Contracts, Fashion and NFT's <br/><br/>
+
+ <h4> Also to use NFTs to create inclusivity within:</h4>
+
+
+<h6>Voting</h6>
+
+<h6>Your Shopping Experience</h6>
+
+<h6>Events Access</h6>
+
+<h6>Upgrading The Utility Ecosystem</h6>
+
+<h6>Augmented Reality </h6>
+
+</p>
+
+</div>
+
+
+
+
    <div class="columnA-left"><h1>Mission</h1> 
    <p className='p-long'>
   The mission is to teach people how to invest & 
@@ -39,6 +66,12 @@ A lot of us are victims to a centralized system that was meant to oppress & cont
    
    
    </div>
+
+
+
+
+
+   
    <div class="columnA-right"><h1>WHY POLYGON?
   </h1>
    
@@ -60,6 +93,11 @@ There are 75 REPLICA NFTS & 225 1 OF 1s.Each 1 of 1 is Edited with traits rangin
    </p>
    
    </div>
+
+
+
+
+
 </div>
 
   )

@@ -5,7 +5,7 @@ const Allocations = () => {
   return (
  
     <div id="p-allocations"className="container-all">
-    <h1 >allocations</h1>
+    <h1 className='all-mobile' >allocations</h1>
 
 
 
