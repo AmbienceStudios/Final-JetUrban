@@ -4,13 +4,13 @@ import './Header.css'
 const Header = () => {
   return (
    
-<div class="container-about">
+<div className="container-about">
 
 <div>
 <h1> Vision</h1>
 <p className='p-long'>
 The vision is to bring awareness and donate to kids in foster care, group homes and non-profits that
- are geared towards mental health awareness, using Blockchain Technology, Smart Contracts, Fashion and NFT's <br/><br/>
+ are geared towards mental health awareness, using Blockchain Technology, Smart Contracts, Fashion and NFT's <br/><br/></p>
 
  <h4> Also to use NFTs to create inclusivity within:</h4>
 
@@ -25,14 +25,14 @@ The vision is to bring awareness and donate to kids in foster care, group homes 
 
 <h6>Augmented Reality </h6>
 
-</p>
+
 
 </div>
 
 
 
 
-   <div class="columnA-left"><h1>Mission</h1> 
+   <div className="columnA-left"><h1>Mission</h1> 
    <p className='p-long'>
   The mission is to teach people how to invest & 
   understand the web3 space so that we can collectively
@@ -43,7 +43,7 @@ The vision is to bring awareness and donate to kids in foster care, group homes 
     </p>
     
     </div>
-   <div class="columnA-center"><h1>Passion</h1>
+   <div className="columnA-center"><h1>Passion</h1>
 
    
    <p className='p-long'>
@@ -57,7 +57,7 @@ The vision is to bring awareness and donate to kids in foster care, group homes 
 
 
 Urban was added in because I wanted to be a voice for the low income urban areas. 
-A lot of us are victims to a centralized system that was meant to oppress & control. 
+A lot of us are victims to a centralized system that was meant to oppress & control.    </p>
 
 <br/><br/>
 
@@ -66,7 +66,7 @@ A lot of us are victims to a centralized system that was meant to oppress & cont
 
 
 
-   </p>
+
    
    
    </div>
@@ -76,7 +76,7 @@ A lot of us are victims to a centralized system that was meant to oppress & cont
 
 
    
-   <div class="columnA-right"><h1>WHY POLYGON?
+   <div className="columnA-right"><h1>WHY POLYGON?
   </h1>
    
    <p className='p-long'>

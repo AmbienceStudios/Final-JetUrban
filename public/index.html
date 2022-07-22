@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
+    <meta charSet="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
@@ -26,7 +26,11 @@
 
     <title>Golden Boy NFT</title>
 
-
+    <script type="module">
+      import three from 'https://cdn.skypack.dev/three';
+      import threejsOrbitControls from 'https://cdn.skypack.dev/threejs-orbit-controls';
+      import threeGltfLoader from 'https://cdn.skypack.dev/three-gltf-loader';
+    </script>
 
 
   </head>
@@ -36,14 +40,18 @@
 
   <body>
 
+    <div className="canvas-element">
+      <canvas className="webgl"></canvas>
+  </div>
 
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    <script type="text/html" src="../src/App.js"></script>
     <div id="root"></div>
 
 
 
 
-
+   
 
 
   </body>
