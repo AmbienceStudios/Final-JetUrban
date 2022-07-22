@@ -16,9 +16,9 @@ const NavBar = () => {
     
       
       <div className="menu">
-        <li><a href="#p-about" className="nav-link">ABOUT</a></li>
-        <li><a href="#p-utilities" className="nav-link">UTILITIES</a></li>
-        <li><a href="#p-allocations" className="nav-link">ALLOCATIONS</a></li>
+        <li><a href="#p-collection" className="nav-link">ABOUT</a></li>
+        <li><a href="#p-ut" className="nav-link">UTILITIES</a></li>
+        <li><a href="#p-all" className="nav-link">ALLOCATIONS</a></li>
         <li><a href="#p-roadmap" className="nav-link">ROAD MAP</a></li>
         <li className="discord"><a href="https://discord.gg/nnq359KR" target="_blank" rel="noreferrer"  >DISCORD</a></li>
         

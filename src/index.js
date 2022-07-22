@@ -35,23 +35,23 @@ root.render(
     <Header/>
     </section> */}
 
-    <section className='section-col'>
+    <section id="p-collection" className='section-col'>
     <CollectionStory/>
     </section>
 
-    <section className='section-ut'>
+    <section id="p-ut" className='section-ut'>
     <Utilities/>
     </section>
 
-    <section className='section-artwork'>
+    <section id="p-art" className='section-artwork'>
     <Artwork/>
     </section>
 
-    <section className='section-all'>
+    <section id="p-all"className='section-all'>
     <Allocations/>
     </section>
 
-    <section className='section-roadmap'>
+    <section id="p-roadmap" className='section-roadmap'>
     <RoadMap/>
     </section>
 

@@ -60,7 +60,7 @@ padding-right: 50px;
 
 .section-ut {
   width: 100%;
-  height: 210vh;
+  height: 250vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -82,7 +82,7 @@ padding-right: 100px;
 
 .section-roadmap {
 width: 100%;
-height: 380vh;
+height: 420vh;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -93,7 +93,7 @@ padding-right: 100px;
 
 .section-all {
 width: 100%;
-height: 120vh;
+height: 200vh;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -114,7 +114,7 @@ overflow-y: hidden;
 
 .section-artwork {
 width: 100%;
-height: 40vh;
+height: 80vh;
 display: flex;
 justify-content: center;
 align-items: center;
