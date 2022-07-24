@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-// import App from './App';
+import App from './components/App';
 import Allocations from './components/Allocations';
 import Artwork from './components/Artwork';
 import CollectionStory from './components/CollectionStory';
@@ -25,9 +25,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <NavBar/>
     </section>
 
-    {/* <section className='section'>
+    <section className='section'>
     <App />
-    </section> */}
+    </section>
 
     <section className='section'>
     <Header/>
