@@ -1,9 +1,8 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import { ArcRotateCamera, Vector3, SceneLoader } from '@babylonjs/core';
+import {MeshBuilder, ArcRotateCamera, HemisphericLight, Vector3, SceneLoader } from '@babylonjs/core';
 import SceneComponent from './SceneComponent';
 import '@babylonjs/loaders';
-
 
 const myStyle = {
     display: "flex",
@@ -30,16 +29,23 @@ const createScene = function (scene) {
         // const light = new HemisphericLight("light", new Vector3(1,1,0));
 
 
-        
-            SceneLoader.ImportMeshAsync(
-                "",  
-                require('../assets/Boxer/Boxer.glb'), 
-                "",
-                scene
-            ); 
-            
+         
+            SceneLoader.Append("assets/Boxer/", "Boxer.glb", scene, function (scene) {          
             scene.createDefaultCameraOrLight(true, true, true);
             scene.createDefaultEnvironment();
+            
+        });
+    
+
+
+
+
+
+
+
+
+
+
 
 
         // return scene;
