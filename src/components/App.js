@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css'
 // import ReactCanvas from './babylontest'
-import ReactCanvasSceneComponent from './UsingBabylonReact'
+import ReactCanvasSceneComponent from './3D/GoldenBoyShowRoom'
 
 
 const App = () => {
