@@ -26,11 +26,14 @@ const createScene = function (scene) {
 
        const camera = new ArcRotateCamera("camera", -Math.PI /2 , Math.PI / 2.5, 15, new Vector3(0,0,0));
        camera.attachControl(canvas, true);
+      
+
         // const light = new HemisphericLight("light", new Vector3(1,1,0));
 
 
          
-            SceneLoader.Append("assets/Boxer/", "Boxer.glb", scene, function (scene) {          
+            SceneLoader.Append("assets/Boxer/", "Boxer.glb", scene, function (scene) {   
+                   
             scene.createDefaultCameraOrLight(true, true, true);
             scene.createDefaultEnvironment();
             
