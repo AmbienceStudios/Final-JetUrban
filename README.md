@@ -74,7 +74,7 @@ of the section.
 
 On the top of the "index.js" page you will notice the first 12 lines are all import's. These 
 are the locations of the pages that we have imported into the main "index.js" page. All of 
-these sections will now display under the 'root' id tag that we shall earlier.
+these sections will now display under the 'root' id tag that we saw earlier.
 
 The pages will be located in the "components" folder which is located in "./src/components/" 
 In the diagram above, the .js and .css files under the page title represent what makes that section. 
