@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import { ArcRotateCamera, Vector3, SceneLoader, CubeTexture  } from '@babylonjs/core';
+import { ArcRotateCamera, Vector3, SceneLoader, Color3  } from '@babylonjs/core';
 import SceneComponent from './SceneComponent';
 import '@babylonjs/loaders';
 
@@ -10,7 +10,8 @@ const myStyle = {
     justifyContent: "center",
     margin: "auto",
     width: "90%",
-    height: "100%"
+    height: "100vh",
+
 }
 
 
@@ -36,9 +37,17 @@ const createScene = function (scene) {
             SceneLoader.Append("assets/Boxer/", "Boxer.glb", scene, function (scene) {  
                           
             scene.createDefaultCameraOrLight(true, true, true);
-            scene.createDefaultEnvironment();
-    
-
+            
+            var environment =  scene.createDefaultEnvironment({ 
+                createSkybox: true,
+                   skyboxSize: 150,
+                   skyboxColor: Color3.Black(),
+                createGround: true,
+                groundSize: 1000,
+                groundColor: Color3.Gray(),
+                enableGroundShadow: true, 
+                groundYBias: 1 
+        });
             
         });
     

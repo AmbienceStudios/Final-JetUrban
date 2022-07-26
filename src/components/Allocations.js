@@ -26,7 +26,7 @@ const Allocations = () => {
         
         <h2 >25%</h2>
         <div >
-            <p>will go toward our tribes cause regarding kids in foster care,group homes or non profits for mental health awareness
+            <p>Go toward our tribes cause regarding kids in foster care,group homes or non profits for mental health awareness
 </p>          
         </div>
 
@@ -36,7 +36,7 @@ const Allocations = () => {
         
         <h2 >45%</h2>
         <div >
-            <p>45% will go towards upgrading the ecosystem</p>          
+            <p>Go towards upgrading the ecosystem</p>          
         </div>
 
         <div className="solid"></div>
@@ -45,7 +45,7 @@ const Allocations = () => {
         
         <h2 >20%</h2>
         <div >
-            <p>will go towards in real life events for tribe members </p>          
+            <p>Go towards in real life events for tribe members </p>          
         </div>
 
         <div className="solid"></div>
@@ -54,7 +54,7 @@ const Allocations = () => {
         
         <h2 >10% </h2>
         <div >
-            <p>will go to the creator </p>          
+            <p>Go to the creator </p>          
         </div>
 
         <div className="solid"></div>

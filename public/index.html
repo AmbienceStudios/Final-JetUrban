@@ -8,12 +8,28 @@
 		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 	    <title>Golden Boy NFT</title>
 	</head>
+	<script>
 
+		playing = false
+		function playAudio(){
+		  if(playing === false){
+			playing = true;
+			const audioEl = document.getElementsByTagName("audio")[0]
+
+		  audioEl.play()
+		  }
+		}
+  
+	  </script>
 
 <body>
  
-    
+
 <div id="root"></div>
+<body style="overflow: hidden;" onclick="playAudio()">
+<audio className="audio-element" loop>
+	<source src="%PUBLIC_URL%/assets/WarriorsSong.mp3"></source>
+</audio>
    
 </body>
 

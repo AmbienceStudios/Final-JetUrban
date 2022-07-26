@@ -102,9 +102,9 @@ New Releases with wearable NFTS.</h3>  <br/> <h6>(discounts depends on traits ) 
         <div>
 
         <div className="ut-battlezone">
-              <p className="column-center">the weight classes includes <br/><br/>  featherweight <br/> lightweight <br/> middleweight <br/>  heavyweight <br/> <br/>  The winner will be a randomized</p>
-              <p className="column-left">Your weight className will depend on your NFTs polygon price. <br/> <br/>  You will not be able to box anyone outside of your weight className </p>
-              <p className="column-right"> wage your warriors or golden boys & warriors NFTS  in the warriors stadium in the ring</p>
+              <p className="column-center">The weight classes includes: <br/><br/>  Featherweight <br/> Lightweight <br/> Middleweight <br/>  Heavyweight <br/> <br/>  The winner will be a randomized.</p>
+              <p className="column-left">Your weight className will depend on your NFTs polygon price. <br/> <br/>  You will not be able to box anyone outside of your weight class. </p>
+              <p className="column-right"> Wage your warriors or golden boys & <br/> warriors NFTS  in the warriors stadium in the ring</p>
         </div>
 
 

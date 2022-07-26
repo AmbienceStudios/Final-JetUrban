@@ -25,11 +25,20 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <App />
     </section>
 
-    <section className='section'>
+    <div id="control-settings">
+      <p>
+        <br/>
+        <div class="desktop">Left Click = Rotate -- Right Click = Pan -- Scroll Wheel = Zoom  </div>
+        <div class="mobile">1-Finger Touch = Rotate <br/> 2-Finger Touch = Pan  <br/> 2-Finger Pinch = Zoom </div>
+      </p>
+
+    </div>
+
+    <section id="p-collection" className='section'>
     <Header/>
     </section>
 
-    <section id="p-collection" className='section-col'>
+    <section className='section-col'>
     <CollectionStory/>
     </section>
 

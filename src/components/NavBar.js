@@ -10,7 +10,7 @@ const NavBar = () => {
    
       <img id="logo" src={logo} alt='logo' />
     
-      <button className="btn-wallet">Connect Wallet</button>
+      {/* <button className="btn-wallet">Connect Wallet</button> */} 
 
     <ul className="nav-links">
     
