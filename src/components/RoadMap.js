@@ -35,11 +35,13 @@ const RoadMap = () => {
                   <div>
                   <h2 >Pre-PHASE 2 <br/> MILESTONE REQUIREMENTS </h2>
                     <div >
-                    <p >  75 GIVEAWAYS. <br/>  <br/> 
-              75 WHITELIST SPOTS ARE GONE. <br/> </p>  <br/> 
-                    <p>3K FOLLOWERS ON TWITTER.  </p> <br/>
-                    <a href="https://twitter.com/URBANWARRIORNFT?ref_src=twsrc%5Etfw" className="twitter-follow-button" data-size="large" data-dnt="true" data-show-count="true">Follow @URBANWARRIORNFT</a><script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script>  
-                  </div>
+                    <p >  75 Giveways.<br/>  <br/> 
+                     75 Whitelist Spots are gone.<br/> </p>  <br/> 
+                    <p>3K Followers on Twitter  </p> 
+                    <a href="https://twitter.com/urbanwarriorsnft?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-count="true">Follow @urbanwarriorsnft</a>
+                             
+                             
+                                   </div>
                   </div>
             
                 </li>
@@ -56,11 +58,16 @@ const RoadMap = () => {
             </div> 
 
             <p>
-              IN GAME COMPATIBLE.<br/> 
-              AUGMENTED REALITY DIGITAL CANVASES. <br/>
-              AUGMENTED REALITY SOCIAL MEDIA FILTERS.<br/> 
-              DIY SCREEN PRINTING TUTORIALS. <br/>
-              MERCHANDISE.<br/> 
+              In Game Compatible.
+              <br/> 
+              Augmented Reality Digital Canvases.
+              <br/>
+              Augmented Reality Social Media Filters.
+              <br/> 
+              DIY Screen Printing Tutorials
+              <br/>
+              Merchandise
+              <br/> 
            </p>
             
             
@@ -73,9 +80,11 @@ const RoadMap = () => {
            </div> 
      
               <p>
-              IN GAME COMPATIBLE. <br/> 
-              AR INTERACTIVE EXPERIENCE. <br/> 
-              MERCHANDISE.
+              In Game Compatible.
+              <br/> 
+              AR Interactive Experience.
+              <br/> 
+              Merchandise
               </p>
                     </div>
                   </div>
@@ -131,8 +140,9 @@ const RoadMap = () => {
                     <p className='p-header'>Launch <br/></p> 
                     <p className='p-header2' > Digital Real Estate Property</p> <br/><br/>
 
-             <p> IN GAME COMPATIBLE <br/> <br/>
-              RENT OR LEASE  DIGITAL REAL ESTATES</p> 
+             <p>    In Game Compatible. <br/> <br/>
+             Rent or Lease Digital Real Estates
+              </p> 
                     </div>
                   </div>
            
@@ -146,7 +156,7 @@ const RoadMap = () => {
                   <h2 className="notice5">Phase 6</h2>
                     <div className="card-road-content">
                       <p className='p-header'>Launch </p> 
-                      <p> into P2E GAMING  METAVERSE  🚀 </p>
+                      <p> into P2E Gaming Metaverse  🚀 </p>
                     </div>
                   </div>
              

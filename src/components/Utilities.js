@@ -9,7 +9,7 @@ const Utilities = () => {
   <div className="notice-container">
         
   <h2>    
-  as a security measure 
+  As A Security Measure 
   </h2>
         
         <p >
@@ -37,11 +37,11 @@ const Utilities = () => {
 
 
   <h1 >utilities</h1>
-    <h2 >10% to 15%</h2>
+    <h2 >10% to 15% OFF</h2>
         
 
-        <h3 > <br/> on all merchandise EXCEPT for NEW RELEASES. <br/> 
-New Releases with wearable NFTS.</h3>  <br/> <h6>(discounts depends on traits ) </h6>  <br/> <br/>       
+        <h3 > <br/> On all merchandise EXCEPT for NEW RELEASES. <br/> 
+New Releases with wearable NFTS.</h3> <h6>(Discounts depends on traits.) </h6>  <br/> <br/>       
 
 
     
