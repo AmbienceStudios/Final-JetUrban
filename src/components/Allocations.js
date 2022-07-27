@@ -15,7 +15,7 @@ const Allocations = () => {
 
           <br/>
         
-          <h2 >Profits from every sale of a <br/> URBAN WARRIORS GOLDEN BOY COLLECTION NFT <br/> Will be broken into these categories:</h2>
+          <h2 >Profits from every sale of<br/>an URBAN WARRIORS GOLDEN BOY COLLECTION NFT <br/> Will be broken into these categories:</h2>
           <div >
 
           </div>

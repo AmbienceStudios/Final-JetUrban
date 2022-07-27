@@ -349,7 +349,7 @@ align-items: center;
 
 /* Global  */
 
-h1, h2, h3,h4, h5 { 
+h1, h2, h3, h4, h5 { 
 font-family: sans-serif;
 text-transform: uppercase;
 text-align: center;
@@ -366,7 +366,7 @@ font-weight: 900;
 
 h2 {
 color: rgb(246, 169, 61);
-font-size: 2rem;
+font-size: 1.65rem;
 font-weight: 700;
 text-transform: none;
 
@@ -374,13 +374,13 @@ text-transform: none;
 
 h3 {
 color: white;
-font-size: 2.2rem;
+font-size: 1.6rem;
 text-transform: none;
 }
 
 h4 {
 color: rgb(246, 169, 61);
-font-size: 1.3rem;
+font-size: 1.4rem;
 font-weight: 700;
 
 }
@@ -388,7 +388,7 @@ font-weight: 700;
 
 h5 {
   color: rgb(246, 169, 61);
-  font-size: 3.5rem;
+  font-size: 2.4rem;
   font-weight: 700;
 
 }
@@ -407,7 +407,7 @@ h6 {
 p {
 font-family: sans-serif;
 color: white;
-font-size: 1.5rem;
+font-size: 1.2rem;
 font-weight: 600;
 /* text-transform: uppercase; */
 line-height: 1.5;

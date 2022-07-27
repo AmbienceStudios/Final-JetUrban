@@ -20,7 +20,7 @@ const RoadMap = () => {
 
                 <li className="card-road">
                   <div>
-                  <h2>PHASE 1</h2>
+                  <h2>Phase 1</h2>
                     <div className="card-road-content">
                     <p>Launch Urban Warriors Discord. <br/>  <br/>
               Launch Urban Warriors GOLDEN BOY COLLECTION. </p>
@@ -33,7 +33,7 @@ const RoadMap = () => {
     
                 <li className="card-road">
                   <div>
-                  <h2 >Pre-PHASE 2 <br/> MILESTONE REQUIREMENTS </h2>
+                  <h2 >Pre-Phase 2<br/> MILESTONE REQUIREMENTS </h2>
                     <div >
                     <p >  75 Giveways.<br/>  <br/> 
                      75 Whitelist Spots are gone.<br/> </p>  <br/> 
@@ -57,17 +57,17 @@ const RoadMap = () => {
              <p className='p-header2'> WRECKLESS HANDS (2ND GEN) </p>
             </div> 
 
-            <p>
+            <p><br/>
               In Game Compatible.
-              <br/> 
+              <br/> <br/>
               Augmented Reality Digital Canvases.
-              <br/>
+              <br/><br/>
               Augmented Reality Social Media Filters.
-              <br/> 
+              <br/> <br/>
               DIY Screen Printing Tutorials
-              <br/>
+              <br/><br/>
               Merchandise
-              <br/> 
+              <br/> <br/>
            </p>
             
             
@@ -81,9 +81,9 @@ const RoadMap = () => {
      
               <p>
               In Game Compatible.
-              <br/> 
+              <br/> <br/>
               AR Interactive Experience.
-              <br/> 
+              <br/> <br/>
               Merchandise
               </p>
                     </div>
