@@ -265,7 +265,7 @@ padding-right: 5px;
 }
 
 .section-nav {
-padding-top: 150px;
+padding-top: 50px;
 width: screen;
 height: max-content;
 /* display: flex;
@@ -395,10 +395,10 @@ h5 {
 
 h6 {
   color: red;
-  font-size: 1.2rem;
+  font-size: .9rem;
   font-weight: 700;
   text-transform: none;
-  text-overflow: ellipsis;
+
 
 }
 

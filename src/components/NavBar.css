@@ -98,6 +98,48 @@
   @media screen and (max-width: 430px) {
     
    /* NAVBAR STYLING STARTS */
+
+.player {
+  height: 100px;
+  width: 320px;
+  background: black;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  border: solid;
+  border-width: 1px;
+  border-color: #ff0000;
+
+
+}
+
+.song-cover {
+  width: 30%;
+  background: #ff0000;
+}
+
+.song-meta {
+  width: 75%;
+  padding-left: 1rem;
+  line-height: 2rem;
+  margin: auto;
+}
+
+.musicplayer {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.nowPlaying {
+  text-align: center; 
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+  
+}
+
+
   .navbar {
     display: flex;
     flex-direction: column;

@@ -5,8 +5,26 @@ import logo from "../assets/logo2.png";
 const NavBar = () => {
   return (
     
+   
     <nav className="navbar">
       
+      <div className='musicplayer'>
+        <div className='nowPlaying'> 
+        <span>Now Playing</span>
+        </div>
+        <div className='player'>
+          <div className='song-cover'>
+
+
+          </div>
+
+          <div className='song-meta'>
+        <span>KIMET</span> <br/>
+        <span>Urban Warriors Anthem</span>
+        </div>
+        </div>
+ 
+      </div>
    
       <img id="logo" src={logo} alt='logo' />
     
