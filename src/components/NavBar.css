@@ -2,6 +2,53 @@
 
   
    /* NAVBAR STYLING STARTS */
+   .player {
+    height: 100px;
+    width: 320px;
+    background: black;
+     display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    border: solid;
+    border-width: 1px;
+    border-color: #ff0000;
+  
+  
+  }
+  
+  .song-cover {
+    width: 30%;
+    background: #ff0000;
+  }
+  
+  .song-meta {
+    width: 75%;
+    padding-left: 1rem;
+    line-height: 2rem;
+    margin: auto;
+  }
+  
+  .musicplayer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    top: 100px;
+  
+  }
+  
+  .nowPlaying {
+    text-align: center; 
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    
+  }
+
+
+
+
+
   .navbar {
     width: 100%;
     padding-bottom: 1rem;
@@ -55,6 +102,7 @@
    .nav-links a {
     color: #fff;
     text-decoration: none;
+  
     
 
       
@@ -66,7 +114,7 @@
     display: flex;
     gap: 1em;
     font-size: 18px;
-    padding-top: 2rem;
+    padding-top: 0rem;
  
 
 
@@ -103,7 +151,7 @@
   height: 100px;
   width: 320px;
   background: black;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
   display: flex;
   flex-direction: row;
   border-radius: 10px;

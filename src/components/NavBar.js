@@ -7,25 +7,7 @@ const NavBar = () => {
     
    
     <nav className="navbar">
-      
-      <div className='musicplayer'>
-        <div className='nowPlaying'> 
-        <span>Now Playing</span>
-        </div>
-        <div className='player'>
-          <div className='song-cover'>
-
-
-          </div>
-
-          <div className='song-meta'>
-        <span>KIMET</span> <br/>
-        <span>Urban Warriors Anthem</span>
-        </div>
-        </div>
- 
-      </div>
-   
+        
       <img id="logo" src={logo} alt='logo' />
     
       {/* <button className="btn-wallet">Connect Wallet</button> */} 

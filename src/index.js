@@ -16,6 +16,24 @@ import Utilities from './components/Utilities'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
 
+      <div className='musicplayer'>
+        <div className='nowPlaying'> 
+        <span>Now Playing</span>
+        </div>
+        <div className='player'>
+          <div className='song-cover'>
+
+
+          </div>
+
+          <div className='song-meta'>
+        <span>KIMET</span> <br/>
+        <span>Urban Warriors Anthem</span>
+        </div>
+        </div>
+ 
+      </div>
+
 
     <section className='section-nav'>
     <NavBar/>
