@@ -88,8 +88,8 @@ A lot of us are victims to a centralized system that was meant to oppress & cont
 
 
 
-There are 75 REPLICA NFTS & 225 1 OF 1s.Each 1 of 1 is Edited with traits ranging from Tattoos,
- shades, hats, shoes & more. All warriors are Rare, but some are rarer than than others.
+ Each 1 of 1 is Edited with traits ranging from Tattoos,
+ shades, hats, shoes & more. All warriors are Rare, but some are rarer than others.
   Each warrior is standing firm on the polygon magic network. It costs as low as 0.01 matic
 
 
