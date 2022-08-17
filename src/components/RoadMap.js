@@ -8,8 +8,8 @@ const RoadMap = () => {
     <div className="cards-road">
         <div>
             <h1> ROAD MAP</h1>      
-            <h3> The journey to the Urban Warrior's Stadium <br/>
-            in the Metaverse </h3>        
+            <h3> The journey to the metaverse <br/>
+           </h3>        
         </div>
 
   
@@ -47,7 +47,7 @@ const RoadMap = () => {
                 </li>
 
 
-                <li className="card-road">
+                <li className="card-road2">
                   <div>
                   <h2 >Phase 2</h2>
                     <div>
@@ -94,7 +94,7 @@ const RoadMap = () => {
 
           
     
-                <li className="card-road">
+                <li className="card-road2">
                   <div>
                   <h2>Phase 3</h2>
                     <div>
@@ -108,7 +108,7 @@ const RoadMap = () => {
    
 
      
-                <li className="card-road">
+                <li className="card-road2">
                   <div>
                   <h2 className="notice5">Phase 4</h2>
                     <div className="card-road-content">
@@ -133,7 +133,7 @@ const RoadMap = () => {
 
 
 
-                <li className="card-road">
+                <li className="card-road2">
                   <div>
                   <h2 >Phase 5</h2>
                     <div >
@@ -151,7 +151,7 @@ const RoadMap = () => {
          
 
          
-             <li className="card-road">
+             <li className="card-road2">
                   <div>
                   <h2 className="notice5">Phase 6</h2>
                     <div className="card-road-content">

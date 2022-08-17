@@ -90,7 +90,7 @@ A lot of us are victims to a centralized system that was meant to oppress & cont
 
  Each 1 of 1 is Edited with traits ranging from Tattoos,
  shades, hats, shoes & more. All warriors are Rare, but some are rarer than others.
-  Each warrior is standing firm on the polygon magic network. It costs as low as 0.01 matic
+  Each warrior is standing firm on the polygon magic network. 
 
 
 

@@ -21,7 +21,7 @@ const CollectionStory = () => {
           Golden Boy fought against being different. His personality wasn't understood 
           or appreciated by others. One day he realized he had to start his own wave & 
           there would be a tribe of his own who would accept him for who he was.  
-          Strength, creativity, and introversion are his unique personality traits.
+          strong, creative  with unique introvert personality traits.
           </p>
         </div>
 

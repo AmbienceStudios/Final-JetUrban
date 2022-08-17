@@ -52,10 +52,10 @@
   .navbar {
     width: 100%;
     padding-bottom: 1rem;
-    background-color: #111;
+    background-color: #000;
     color: #fff;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     
@@ -63,8 +63,9 @@
    }
 
    #logo {
-    
-    transform: scale(.3);
+    position: relative;
+    right: 250px;
+    transform: scale(.4);
     
      
     
@@ -115,6 +116,9 @@
     gap: 1em;
     font-size: 18px;
     padding-top: 0rem;
+    width: 60%;
+    position: absolute;
+    right: 150px;
  
 
 
@@ -129,6 +133,7 @@
    }
    .menu li {
     padding: 5px 14px;
+    
   
     
   
@@ -139,11 +144,27 @@
   }
   
 
+  @media screen and (max-width: 1500px) {
+    .menu {
+      display: flex;
+      gap: 1em;
+      font-size: 18px;
+      padding-top: 0rem;
+      width: 70%;
+      position: absolute;
+      right: 75px;
+    }
+
+    #logo {
+      position: relative;
+      left: -200px;
+    }
+  }
 
    
   
    
-  @media screen and (max-width: 430px) {
+  @media screen and (max-width: 1400px) {
     
    /* NAVBAR STYLING STARTS */
 
@@ -195,7 +216,7 @@
     justify-content: space-between;
   
     padding-bottom: 1rem;
-    background-color: #111;
+    background-color: #000;
     color: #fff;
    }
    .nav-links a {
@@ -244,6 +265,7 @@
    
     transform: scale(.8);
     position: relative;
+    left: 10px;
   
     display: flex;
     align-items: center;

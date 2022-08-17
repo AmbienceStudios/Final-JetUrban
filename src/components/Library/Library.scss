@@ -1,0 +1,49 @@
+.library {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20rem;
+    height: 100%;
+    color: rgb(238, 238, 238);
+    font-weight: 400;
+    box-shadow: 20px 20px 50px rgb(5, 5, 5);
+    overflow: scroll;
+    transform: translateX(-100%);
+    transition: all 0.5s ease;
+    opacity: 100;
+    z-index: 99;
+    .library-header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem;
+        svg {
+            cursor: pointer;
+        }
+    }
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(13, 13, 13, 0.5) transparent;
+}
+
+*::-webkit-scrollbar {
+    width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: rgba(155, 155, 155, 0.5);
+    border-radius: 20px;
+    border: transparent;
+}
+
+.active {
+    transform: translateX(0%);
+    opacity: 1;
+}
