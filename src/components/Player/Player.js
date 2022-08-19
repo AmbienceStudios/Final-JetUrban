@@ -1,9 +1,9 @@
 import React, { useRef, useState } from 'react';
 import PropTypes from 'prop-types';
 
-import { SKIP_BACK, SKIP_FORWARD } from '../../../utils/constants';
+import { SKIP_BACK, SKIP_FORWARD } from '../../utils/constants';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAngleLeft, faAngleRight, faPlay, faPause, faHeart, faEllipsisV } from '@fortawesome/free-solid-svg-icons';
+import { faAngleLeft, faAngleRight, faPlay, faPause, faHeart, faEllipsisV, faCloudDownloadAlt } from '@fortawesome/free-solid-svg-icons';
 
 import './Player.scss';
 
@@ -125,18 +125,18 @@ const Player = ({
         <div className="player-container">
 
             <div className="favorite-controls">
-                <FontAwesomeIcon
+                {/* <FontAwesomeIcon
                     size="1x"
-                    icon={faEllipsisV} />
-                <FontAwesomeIcon 
+                    icon={faEllipsisV} /> */}
+                {/* <FontAwesomeIcon 
                     size="1x"
                     style={{color: `${songInFavorites ? '#ee5253' : '#000'}`}}
                     onClick={addToFavorite}
-                    icon={faHeart} />
+                    icon={faHeart} /> */}
             </div>
 
             <div className="time-controls">
-                <p>{getTime(songTimeInfo.currentTime)}</p>
+                {/* <p>{getTime(songTimeInfo.currentTime)}</p> */}
                 <div className="track" style={{
                     background: `linear-gradient(to right, ${currentSong.color[0]}, ${currentSong.color[1]})`
                 }}>
@@ -148,7 +148,7 @@ const Player = ({
                         type="range" />
                     <div className="animate-track" style={trackAnim}></div>
                 </div>
-                <p>{songTimeInfo.duration ? getTime(songTimeInfo.duration) : '0.00'}</p>
+                {/* <p>{songTimeInfo.duration ? getTime(songTimeInfo.duration) : '0.00'}</p> */}
             </div>
 
             <div className = "player-controls">
@@ -156,10 +156,20 @@ const Player = ({
                     size="2x"
                     onClick={() => songSkipHandler(SKIP_BACK)} 
                     icon={faAngleLeft} />
+                <div>
                 <FontAwesomeIcon 
                     size="2x"
                     onClick={playSongHandler} 
                     icon={isPlaying ? faPause : faPlay} />
+                </div>
+
+                 <div>
+                 <a target="_blank" rel="noopener noreferrer" href={currentSong.shareLink}> <FontAwesomeIcon 
+                    size="2x"
+                    onClick={() => require(currentSong.shareLink)} 
+                    icon={faCloudDownloadAlt}
+                    /> </a></div>
+
                 <FontAwesomeIcon 
                     size="2x"
                     onClick={() => songSkipHandler(SKIP_FORWARD)} 

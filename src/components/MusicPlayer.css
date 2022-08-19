@@ -11,7 +11,37 @@ body {
    
 }
 
+.MusicPlayerContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 50%;
+}
+
 .library-active {
     transition: margin 0.3s ease;
     margin-left: 40px;
+}
+
+.playerContainer {
+    display: flex;
+    flex-direction: column;
+    /* padding-top: 50px; */
+
+}
+
+.navBarContainer{
+    display: flex;
+        width: 20%;
+}
+
+.songContainer{
+    display: flex;
+    width: 40%;
+}
+
+.trackContainer {
+    display: flex;
+    width: 40%;
 }

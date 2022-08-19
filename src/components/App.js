@@ -9,7 +9,7 @@ const App = () => {
     <div className='App'>
         <header className='App-header'>
             {/* <ReactCanvas/> */}
-            <ReactCanvasSceneComponent/>
+            <ReactCanvasSceneComponent className="canvas"/>
         </header>
 
     </div>

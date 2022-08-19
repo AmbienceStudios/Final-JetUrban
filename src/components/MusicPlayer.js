@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import Player from './smart/Player/Player';
+import Player from './Player/Player';
 import Song from './Song/Song';
 import Library from './Library/Library';
 import Nav from './Nav/Nav';
@@ -19,12 +19,13 @@ const MusicPlayer = () => {
     const favoriteSongs = favorites.length > 0 ? songs.filter(song => favorites.some(fav => fav.favoriteId === song.id)) : [];
     return (
         <div className={`${libraryStatus ? 'library-active' : ''}`}>
-            <Nav 
+            
+            <Nav className="navBarContainer"
                 libraryStatus={libraryStatus}
                 setLibraryStatus={setLibraryStatus} />
-            <Song 
+            <Song className="songContainer"
                 currentSong={currentSong} />
-            <Player 
+            <Player className="trackContainer"
                 isPlaying={isPlaying}
                 setIsPlaying={setIsPlaying}
                 currentSong={currentSong} 
@@ -41,7 +42,8 @@ const MusicPlayer = () => {
                 favoriteSongs={favoriteSongs}
                 setIsInFavorites={setIsInFavorites}
                 setLibraryStatus={setLibraryStatus} />
-        </div>
+                </div>
+       
     )
 }
 

@@ -1,0 +1,299 @@
+.player-container {
+    min-height: 20vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    // position: absolute;
+    right: 100px;
+    top: 100px;
+    z-index: 20;
+    .favorite-controls {
+        width: 45%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        svg {
+            cursor: pointer;
+            filter: invert(1);
+        }
+    }
+    .time-controls {
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        .track {
+            width: 20%;
+            background: rgb(17, 17, 17);
+            border-radius: 10px;
+            position: absolute;
+            left: 850px;
+            top: 325px;
+            height: 0.7rem;
+            overflow: hidden;
+            color: rgb(217, 14, 14);
+            input {
+                width: 100%;
+                -webkit-appearance: none;
+                background-color: red;
+                cursor: pointer;
+                &:focus {
+                    outline: none;
+                }
+                &::-webkit-slider-thumb {
+                    -webkit-appearance: none;
+                    border: none;
+                    height: 1rem;
+                    width: 0.7rem;
+                }
+            }
+            .animate-track {
+                background: rgb(11, 11, 11);
+                width: 100%;
+                height: 120%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                transform: translateX(100%);
+                pointer-events: none;
+            }
+        }
+        p {
+            width: 5%;
+        }
+    }
+    .player-controls {
+        width: 15%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: auto;
+        justify-content: center;
+        position: relative;
+        right: 810px;
+        top:0px;
+        svg {
+            cursor: pointer;
+            
+        }
+
+        div {
+            padding-left: 40px;
+            padding-right: 10px;
+            color: white;
+            text-decoration: none;
+
+            a {
+                color: red;
+                position: relative;
+                right: 25px;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 1500px) {
+
+    .player-container {
+        min-height: 20vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        // position: absolute;
+        right: 100px;
+        top: 100px;
+        z-index: 20;
+        .favorite-controls {
+            width: 45%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            svg {
+                cursor: pointer;
+                filter: invert(1);
+            }
+        }
+        .time-controls {
+            width: 50%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            .track {
+                width: 20%;
+                background: rgb(17, 17, 17);
+                border-radius: 10px;
+                position: absolute;
+                left: 700px;
+                top: 325px;
+                height: 0.7rem;
+                overflow: hidden;
+                color: rgb(217, 14, 14);
+                input {
+                    width: 100%;
+                    -webkit-appearance: none;
+                    background-color: red;
+                    cursor: pointer;
+                    &:focus {
+                        outline: none;
+                    }
+                    &::-webkit-slider-thumb {
+                        -webkit-appearance: none;
+                        border: none;
+                        height: 1rem;
+                        width: 0.7rem;
+                    }
+                }
+                .animate-track {
+                    background: rgb(11, 11, 11);
+                    width: 100%;
+                    height: 120%;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    transform: translateX(100%);
+                    pointer-events: none;
+                }
+            }
+            p {
+                width: 5%;
+            }
+        }
+        .player-controls {
+            width: 15%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin: auto;
+            justify-content: center;
+            position: relative;
+            right: 610px;
+         
+            svg {
+                cursor: pointer;
+                
+            }
+    
+            div {
+                padding-left: 40px;
+                padding-right: 10px;
+                color: white;
+                text-decoration: none;
+    
+                a {
+                    color: red;
+                    position: relative;
+                    right: 25px;
+                }
+            }
+        }
+    }
+    
+    
+
+
+
+
+@media screen and (max-width: 768px) {
+    .player-container {
+        min-height: 20vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        // position: absolute;
+        right: 100px;
+        top: 100px;
+        z-index: 20;
+        .favorite-controls {
+            width: 45%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            svg {
+                cursor: pointer;
+                filter: invert(1);
+            }
+        }
+        .time-controls {
+            width: 50%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            .track {
+                width: 150%;
+                background: rgb(17, 17, 17);
+                border-radius: 10px;
+                // position: absolute;
+                // left: -10px;
+                // top: 140px;
+                height: 0.7rem;
+                overflow: hidden;
+                color: rgb(217, 14, 14);
+                input {
+                    width: 100%;
+                    -webkit-appearance: none;
+                    background-color: red;
+                    cursor: pointer;
+                    &:focus {
+                        outline: none;
+                    }
+                    &::-webkit-slider-thumb {
+                        -webkit-appearance: none;
+                        border: none;
+                        height: 1rem;
+                        width: 0.7rem;
+                    }
+                }
+                .animate-track {
+                    background: rgb(11, 11, 11);
+                    width: 100%;
+                    height: 120%;
+                    // position: absolute;
+                    // top: 0;
+                    // left: 0;
+                    transform: translateX(100%);
+                    pointer-events: none;
+                }
+            }
+            p {
+                width: 5%;
+            }
+        }
+        .player-controls {
+            width: 80%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+           margin: auto;
+            justify-content: center;
+            // position: absolute;
+            // right: 40px;
+            // top: 170px;
+            svg {
+                cursor: pointer;
+                
+            }
+    
+            div {
+                padding-left: 40px;
+                padding-right: 10px;
+                color: white;
+                text-decoration: none;
+    
+                a {
+                    color: red;
+                    position: relative;
+                    right: 25px;
+                }
+            }
+        }
+    }
+}
+
+}

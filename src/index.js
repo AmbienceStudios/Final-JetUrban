@@ -13,9 +13,10 @@ import Utilities from './components/Utilities';
 import MusicPlayer from './components/MusicPlayer'
 
 
-
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+
+
 
     <div className='Player'>
     <MusicPlayer/>

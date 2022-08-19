@@ -16,7 +16,7 @@ const Footer = () => {
  
        
           <ul className="socials">
-              <li><a href="https://discord.gg/nnq359KR" target="_blank" rel="noreferrer"><img src={discord} alt="disocrd"/></a></li>
+              <li><a href="https://discord.gg/s2URjerbpp" target="_blank" rel="noreferrer"><img src={discord} alt="disocrd"/></a></li>
               <li><a href="https://twitter.com/urbanwarriornft" target="_blank" rel="noreferrer"><img src={twitter} alt="twitter"/></a></li>
               <li><a href="https://www.instagram.com/urbanwarriorsnft" target="_blank" rel="noreferrer"><img src={instagram} alt="instagram"/></a></li>
               <li><a href="https://www.tiktok.com/@urbanwarriorsnft" target="_blank" rel="noreferrer"><img src={tiktok} alt="tiktok"/></a></li>

@@ -1,42 +1,66 @@
 .song-container {
-    min-height: 60vh;
+    min-height:20vh;
+    width: 100%;
+  
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
+    // position: absolute;
+    // left: 0px;
+    // top: 0px;
+    z-index: 10;
+    transform: scale(1);
     img {
-        width: 20%;
+        width: 8%;
         border-radius: 20px;
+        border: solid;
+        border-width: 2px;
+        border-color: red;
+        position: relative;
+        left: 620px;
+        bottom: 0px;
+        z-index: 99;
+     
+        
+      
     }
+    .artistInfo {
+        width: 40%;
+        text-align: left;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        left: 510px;
+        bottom: 20px;
+
+    }
+
+
     h2 {
         padding: 2rem 1rem 1rem 1rem;
         filter: invert(1);
+       
     }
     h3 {
         font-size: 1rem;
+        padding: 0 1rem 1rem 1rem;
+ 
         
     }
 
     a {
-        background-color: red;
+      
         color: white;
-        height: 30px;
-        width: 500px;
-        position: relative;
-        top: 10px;
-        padding-left: 50px;
-        padding-right: 50px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        border-radius: 50px;
         text-decoration: none;
+        text-align: center;
         
     }
 
     a:hover {
         cursor: pointer;
         background: black;
-        color: white;
+        color: red;
+  
     }
 
     
@@ -44,55 +68,180 @@
         color: black;
     }
 
+    .cover {
+        position: relative;
+   
+    }
+
 }
 
-@media screen and (max-width: 768px) {
+
+
+
+
+@media screen and (max-width: 1500px) {
 
     .song-container {
-        min-height: 60vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        min-height: 18vh;
+        width: 100%;
       
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        // position: absolute;
+        // left: 0px;
+        // top: 0px;
+        z-index: 10;
+        transform: scale(1);
         img {
-            width: 80%;
+            width: 8%;
             border-radius: 20px;
             border: solid;
             border-width: 2px;
             border-color: red;
+            position: relative;
+            left: 500px;
+            top: 0px;
+            z-index: 99;
+         
+            
+          
         }
+        .artistInfo {
+            width: 40%;
+            text-align: left;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            left: 400px;
+            bottom: 20px;
+    
+        }
+    
+    
         h2 {
             padding: 2rem 1rem 1rem 1rem;
-            
+            filter: invert(1);
+           
         }
         h3 {
             font-size: 1rem;
+            padding: 0 1rem 1rem 1rem;
+     
             
-            
-        }
-
-        .songName {
-            color: black;
         }
     
         a {
-            background-color: red;
+          
             color: white;
-            height: 30px;
-            width: 500px;
-            padding-left: 50px;
-            padding-right: 50px;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            border-radius: 50px;
             text-decoration: none;
+            text-align: center;
             
         }
     
         a:hover {
             cursor: pointer;
             background: black;
+            color: red;
+      
+        }
+    
+        
+        .songName {
+            color: black;
+        }
+    
+        .cover {
+            position: relative;
+       
+        }
+
+    }
+
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .song-container {
+        min-height: 20vh;
+        width: 100%;
+      
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        // position: absolute;
+        // left: 0px;
+        // top: 0px;
+        z-index: 10;
+        transform: scale(1);
+        img {
+            width: 20%;
+            border-radius: 20px;
+            border: solid;
+            border-width: 2px;
+            border-color: red;
+            // position: absolute;
+            // left: 20px;
+            // bottom: 20px;
+            z-index: 99;
+            
+          
+        }
+        .artistInfo {
+            width: 100%;
+            text-align: left;
+            justify-content: space-between;
+            align-items: center;
+            // position: absolute;
+          
+            // left: 10px;
+            // top: 10px;
+    
+        }
+    
+    
+        h2 {
+            padding: 2rem 1rem 1rem 1rem;
+            filter: invert(1);
+            font-size: 1rem;
+           
+        }
+        h3 {
+            font-size: 1rem;
+            padding: 0 1rem 1rem 1rem;
+     
+            
+        }
+    
+        a {
+          
             color: white;
+            text-decoration: none;
+            text-align: center;
+            
+        }
+    
+        a:hover {
+            cursor: pointer;
+            background: black;
+            color: red;
+      
+        }
+    
+        
+        .songName {
+            color: black;
+        }
+    
+        .cover {
+            position: relative;
+       
         }
     
     }

@@ -4,10 +4,10 @@ import { v4 as uuidv4 } from "uuid";
 const musicData = () => {
   return [
     {
-      name: "Urban Warrior Anthem",
+      name: "Urban Warrior’s Anthem",
       cover:
         "https://static.wixstatic.com/media/88580b_3e7bd90b0378412185cd7a459a27c13f~mv2.png",
-      artist: "Jet Urban Clothing",
+      artist: "KIMET",
       audio: "https://static.wixstatic.com/mp3/88580b_a17237e5a06c495092c914a6bcf4f463.mp3",
       color: ["#FF0000", "#DD0000"],
       shareLink: "https://twitter.com/URBANWARRIORNFT",
@@ -20,7 +20,7 @@ const musicData = () => {
       artist: "Touchmoney Cease",
       audio: "https://static.wixstatic.com/mp3/88580b_8092fbcd022b4584a835dd2dbfc84e9d.mp3",
       color: ["#FF0000", "#DD0000"],
-      shareLink: "https://welisten.to/lildolfin",
+      shareLink: "https://youtu.be/lNf_XLdMmsw",
       id: uuidv4()
     },
     {

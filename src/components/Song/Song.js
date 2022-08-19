@@ -1,22 +1,32 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMusic } from '@fortawesome/free-solid-svg-icons';
+
 import './Song.scss';
 
-const Song = ({ currentSong }) => {
+const Song = ({ currentSong, libraryStatus, setLibraryStatus }) => {
     return (
+
+    
+
         <div className="song-container">
-            <img className='cover' src={currentSong.cover} alt={currentSong.name} />
+            <img className='cover' src={currentSong.cover} alt={currentSong.name} />            
+            <div className='artistInfo'>
             <h2 className='songName'>{currentSong.name}</h2>
-            <div className='artistlink'>
-            <h3><a target="_blank" rel="noopener noreferrer" href={currentSong.shareLink}> {currentSong.artist} </a></h3>
+            <h3>{currentSong.artist}</h3>
+                  
             </div>
+            
         </div>
     )
 }
 
 Song.propTypes = {
-    currentSong: PropTypes.object
+    currentSong: PropTypes.object,
+    libraryStatus: PropTypes.bool,
+    setLibraryStatus: PropTypes.func
 };
 
 export default Song;

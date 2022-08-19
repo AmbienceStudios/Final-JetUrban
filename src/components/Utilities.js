@@ -54,7 +54,9 @@ New Releases with wearable NFTS.</h3> <h6>(Discounts depends on traits.) </h6>  
       <div>
         <h4 >Voting rights</h4>
         <div>
-  
+          <p>
+          Activities for in real life events <br/> <br/> Charity causes <br/><br/>Community structure <br/><br/> Collaborations
+          </p>
         </div>
       </div>
 

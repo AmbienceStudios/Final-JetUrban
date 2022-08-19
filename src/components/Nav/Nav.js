@@ -11,8 +11,8 @@ const Nav = ({ libraryStatus, setLibraryStatus }) => {
         <nav>
             {/* <h1>iMusic</h1> */}
             <button onClick={() => setLibraryStatus(!libraryStatus)}>
-                Warrior Library &nbsp;
-                <FontAwesomeIcon icon={faMusic} />
+            Urban Warrior’s Library &nbsp;
+                <FontAwesomeIcon className="icon" icon={faMusic} />
             </button>
         </nav>
     );
